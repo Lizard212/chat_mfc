@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ENTITY">
+      <UniqueIdentifier>{fd4f1dc8-2bea-4ed5-8636-130fa672a460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\REPOSITORY">
+      <UniqueIdentifier>{0d8b9ae7-acfb-4173-8464-5d6b58f14195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ENTITY">
+      <UniqueIdentifier>{fd70613b-f959-4e31-8600-38d23881c4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\REPOSITORY">
+      <UniqueIdentifier>{a3628252-d3de-4a3f-814f-1b2047e1dfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BUS">
+      <UniqueIdentifier>{f4fcd3a8-70e1-4229-ba68-de8641e9b7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VIEW">
+      <UniqueIdentifier>{8aabc26d-cf1f-42b6-95e1-eed723068e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CONTEXT">
+      <UniqueIdentifier>{12f69f09-262b-4ccc-8ec5-1175d9413624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CONTEXT">
+      <UniqueIdentifier>{57293890-85cd-407d-aab2-0665b0d48c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VIEW">
+      <UniqueIdentifier>{9e4b41a8-455c-4b46-bc7d-f865e8f5dea2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Repository.h">
+      <Filter>Header Files\REPOSITORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Header Files\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="Friend.h">
+      <Filter>Header Files\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="BUS.h">
+      <Filter>Header Files\BUS</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountRepository.h">
+      <Filter>Header Files\REPOSITORY</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCChat_v1.h">
+      <Filter>Header Files\VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCChat_v1Dlg.h">
+      <Filter>Header Files\VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Register_Dlg.h">
+      <Filter>Header Files\VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Dlg.h">
+      <Filter>Header Files\VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendRepository.h">
+      <Filter>Header Files\REPOSITORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Header Files\CONTEXT</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageRepository.h">
+      <Filter>Header Files\REPOSITORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Aboutdlg.h">
+      <Filter>Header Files\VIEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository.cpp">
+      <Filter>Source Files\REPOSITORY</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\ENTITY</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Source Files\ENTITY</Filter>
+    </ClCompile>
+    <ClCompile Include="Friend.cpp">
+      <Filter>Source Files\ENTITY</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files\ENTITY</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendRepository.cpp">
+      <Filter>Source Files\REPOSITORY</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountRepository.cpp">
+      <Filter>Source Files\REPOSITORY</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Source Files\CONTEXT</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageRepository.cpp">
+      <Filter>Source Files\REPOSITORY</Filter>
+    </ClCompile>
+    <ClCompile Include="Aboutdlg.cpp">
+      <Filter>Source Files\VIEW</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCChat_v1.cpp">
+      <Filter>Source Files\VIEW</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCChat_v1Dlg.cpp">
+      <Filter>Source Files\VIEW</Filter>
+    </ClCompile>
+    <ClCompile Include="Register_Dlg.cpp">
+      <Filter>Source Files\VIEW</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Dlg.cpp">
+      <Filter>Source Files\VIEW</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat2.cpp">
+      <Filter>Source Files\VIEW</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCChat_v1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCChat_v1.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCChat_v1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar_find.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Smile-48.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\smiley_grin_icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Cloud.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Cloud-icon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Cloud-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
